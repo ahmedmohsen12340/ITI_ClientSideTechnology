@@ -1,0 +1,20 @@
+body{
+    background-color: pink;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.wel{
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+.next{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
