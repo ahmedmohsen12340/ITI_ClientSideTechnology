@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 4</title>
+    <link rel="stylesheet" href="../css/master.css">
+</head>
+
+<body>
+    <table border="1" class="table-shadow center">
+        <form action="page5.html">
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input id="fname" name="fname" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input id="lname" name="lname" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input id="pass" name="pass" type="password">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <p>Gender</p>
+                </td>
+                <td>
+                    <input value="male" type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input value="female" type="radio" name="gender" id="female">
+                    <label for="female">female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Birthday</label>
+                    <select name="month" id="month">
+                        <option value="" disabled selected hidden>select a month</option>
+                        <option value="jan">jan</option>
+                        <option value="feb">feb</option>
+                        <option value="mar">mar</option>
+                        <option value="apr">apr</option>
+                        <option value="may">may</option>
+                        <option value="jun">jun</option>
+                        <option value="jul">jul</option>
+                        <option value="aug">aug</option>
+                        <option value="sep">sep</option>
+                        <option value="oct">oct</option>
+                        <option value="nov">nov</option>
+                        <option value="dec">dec</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" min="1" max="31" placeholder="dd" type="day">
+                    <input type="number" min="1950" placeholder="yyyy" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-center"><u><b>Interests</b></u></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="int" id="sports" value="sports">
+                    <label for="sports">Sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="int" id="music" value="music">
+                    <label for="music">Music</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="int" id="books" value="books">
+                    <label for="books">Books</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="int" id="Computer" value="Computer stuff">
+                    <label for="Computer">Computer stuff</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="int" id="Movies" value="Movies">
+                    <label for="Movies">Movies</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="int" id="Fashion" value="Fashion">
+                    <label for="Fashion">Fashion</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center" colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
