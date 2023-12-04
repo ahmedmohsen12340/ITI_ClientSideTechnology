@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-500px{
+    width: 500px;
+}
+
+.block{
+    display: block;
+}
+.w-400px{
+    width: 450px;
+}
+.m-20px{
+    margin: 20px 0;
+}
+.m-10px{
+    margin: 10px 0;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.fs-large{
+    font-size: larger;
+}
+.card{
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+}

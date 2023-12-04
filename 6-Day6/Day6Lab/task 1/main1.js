@@ -1,0 +1,1 @@
+window.open('parentWindow.html','','width=600,height=600');
