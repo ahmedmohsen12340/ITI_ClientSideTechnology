@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="message.html">
+        <div>
+            <label for="name">Enter Your Name:</label>
+            <input name="name" id="name" type="text">
+        </div>
+        <div>
+            <label for="Age">Enter Your Age:</label>
+            <input name="Age" id="Age" type="text">
+        </div>
+        <div>
+            <input type="radio" name="Gender" id="man" value="Man">
+            <label for="man"><img src="../Images/man.jpg" alt="man"></label>
+            <input type="radio" name="Gender" id="woman" value="Woman">
+            <label for="woman"><img src="../Images/woman.jpg" alt="woman"></label>
+        </div>
+        <div>
+            <label>Select Your Favourite Color:</label>
+            <select name="color" id="color">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit" onclick="ReG()">
+        </div>
+    </form>
+    <script src="../JavaScript/CookieLibrary.js"></script>
+    <script src="../JavaScript/main.js"></script>
+</body>
+
+</html>
